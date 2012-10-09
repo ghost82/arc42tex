@@ -1,0 +1,24 @@
+%
+% uml in latex example
+% pdflatex -enable-write18 -shell-escape example.tex
+%
+
+\documentclass[10pt]{article}
+
+%
+% provides the UML function
+%
+\input{lib/suml}
+
+%
+% tabular usecases
+%
+\usepackage{lib/usecases}
+
+
+\begin{document}
+
+\input{kapitel/introduction}
+\input{kapitel/constraints}
+
+\end{document}
